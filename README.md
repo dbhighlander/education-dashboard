@@ -3,6 +3,10 @@
 ![Screenshot](screenshot.png)
 
 ## About
+
+View [here](https://education-dashboard-six.vercel.app/admin): to see the site live
+
+
 This is a mockup of an education Software as a Service application. Users will be able to log in to see school data, class timetables, attendance records, etc.  There are a variety of roles: admin, teacher, parent and student, where each will have a restricted view of the site.  
 
 ## Getting Started
