@@ -3,9 +3,7 @@
 ![Screenshot](screenshot.png)
 
 ## About
-This is a mockup of an education application modelled as a Software as a Service app, used to show off my front-end dev skills 
-
-Users will be able to log in to see school data, class timetables, attendance records, etc.  There are a variety of roles: admin, teacher, parent and student, where each will have a restricted view of the site.  
+This is a mockup of an education Software as a Service application. Users will be able to log in to see school data, class timetables, attendance records, etc.  There are a variety of roles: admin, teacher, parent and student, where each will have a restricted view of the site.  
 
 ## Getting Started
 
