@@ -1,4 +1,11 @@
-# Lama Dev School Management Dashboard
+# School Management Dashboard
+
+![Screenshot](screenshot.png)
+
+## About
+This is a mockup of an education application modelled as a Software as a Service app, used to show off my front-end dev skills 
+
+Users will be able to log in to see school data, class timetables, attendance records, etc.  There are a variety of roles: admin, teacher, parent and student, where each will have a restricted view of the site.  
 
 ## Getting Started
 
@@ -14,13 +21,10 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the page
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Coding Skills
 
-## Learn More
+This is coded using Next,js, component reuse, and css styling using Tailwind.  Components are reused throughout the app, responsive design is brought in, and lazy loading implemented to show forms on the student and teacher admin pages.  I've purposely started using TypeScript to catch errors during development.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
-- [Next.js](https://nextjs.org/learn)
+There is limited functionality, but the idea is to extend this into a full application bringing in auth middleware, signup and data retrieval. The site probably needs a review with accessiblity and semantic HTML.
