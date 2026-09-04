@@ -1,7 +1,8 @@
+import { redirect } from "next/navigation"
+
 const Homepage = () => {
-  return (
-    <div className=''>Homepage</div>
-  )
+
+  redirect("/admin");
 }
 
 export default Homepage
