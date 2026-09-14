@@ -44,7 +44,7 @@ export default function AttendanceChart() {
   return (
     <div className="bg-white rounded-lg p-4 h-full">
       <div className="text-lg font-semibold">
-        <h1>AttendanceChart</h1>
+        <h1>Attendances</h1>
         <Image src="/moreDark.png" width={20} height={20} alt="" />
       </div>
       <ResponsiveContainer width="100%" height="90%">
