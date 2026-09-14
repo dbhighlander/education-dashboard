@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import InputField from "../InputField";
 import Image from "next/image";
+import { Dialog } from "radix-ui";
 
 const schema = z.object({
   username: z
@@ -48,7 +49,9 @@ const StudentForm = ({
 
   return (
     <form className="flex flex-col gap-8" onSubmit={onSubmit}>
-      <h1 className="text-xl font-semibold">Create a new student</h1>
+      <Dialog.Title className="text-xl font-semibold">
+        Create a new student
+      </Dialog.Title>
       <span className="text-xs text-gray-400 font-medium">
         Authentication Information
       </span>
@@ -155,9 +158,11 @@ const StudentForm = ({
           )}
         </div>
       </div>
-      <button className="bg-blue-400 text-white p-2 rounded-md">
-        {type === "create" ? "Create" : "Update"}
-      </button>
+      <Dialog.Close asChild>
+        <button className="bg-blue-400 text-white p-2 rounded-md">
+          {type === "create" ? "Create" : "Update"}
+        </button>
+      </Dialog.Close>
     </form>
   );
 };
