@@ -1,5 +1,7 @@
 // TEMPORARY DATA
 
+import { UserCount } from "@/types";
+
 export let role = "admin";
 
 export const teachersData = [
@@ -1061,3 +1063,10 @@ export const calendarEvents = [
     end: new Date(2026, 8, 6, 14, 45),
   },
 ];
+
+export const userCount: UserCount = {
+  student: 1201,
+  teacher: 52,
+  parent: 980,
+  staff: 74
+}
